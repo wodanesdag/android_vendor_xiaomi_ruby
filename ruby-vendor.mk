@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service.beanpod \
     vendor/xiaomi/ruby/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/xiaomi/ruby/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
-    vendor/xiaomi/ruby/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
     vendor/xiaomi/ruby/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
     vendor/xiaomi/ruby/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/ruby/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
@@ -558,7 +557,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/firmware/soc5_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc5_0_ram_bt_1_1_hdr.bin \
     vendor/xiaomi/ruby/proprietary/vendor/firmware/soc5_0_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc5_0_ram_mcu_1_1_hdr.bin \
     vendor/xiaomi/ruby/proprietary/vendor/firmware/soc5_0_ram_wmmcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc5_0_ram_wmmcu_1_1_hdr.bin \
-    vendor/xiaomi/ruby/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/xiaomi/ruby/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/xiaomi/ruby/proprietary/vendor/firmware/txpowerctrl_gl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_gl.cfg \
     vendor/xiaomi/ruby/proprietary/vendor/firmware/txpowerctrl_gl_u.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_gl_u.cfg \
@@ -1720,7 +1718,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
-    vendor/xiaomi/ruby/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/ov02b10aac_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10aac_mipi_raw_IdxMgr.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/ov02b10aac_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10aac_mipi_raw_tuning.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/ov02b10sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10sunny_mipi_raw_IdxMgr.so \
