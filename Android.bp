@@ -25218,71 +25218,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmlipay_isee",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmlipay_isee.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhardware",
-                "libhidltransport",
-                "vendor.xiaomi.hardware.mlipay@1.0",
-                "libteeclientjni_isee",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmlipay_isee@1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmlipay_isee@1.1.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhardware",
-                "libhidltransport",
-                "vendor.xiaomi.hardware.mlipay@1.0",
-                "vendor.xiaomi.hardware.mlipay@1.1",
-                "libteeclientjni_isee@1.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmml",
     owner: "xiaomi",
     strip: {
@@ -25439,81 +25374,6 @@ cc_prebuilt_library_shared {
                 "libdpframework",
                 "libmtkcam_mfb",
                 "libaedv",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmt_isee",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmt_isee.so",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.xiaomi.hardware.mlipay@1.0",
-                "vendor.xiaomi.hardware.mfidoca@1.0",
-                "libTEECommon",
-                "libmlipay_isee",
-                "libmfido_isee",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmt_isee@1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmt_isee@1.3.so",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "vendor.xiaomi.hardware.mtdservice@1.1",
-                "vendor.xiaomi.hardware.mtdservice@1.2",
-                "vendor.xiaomi.hardware.mtdservice@1.3",
-                "libcrypto",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.xiaomi.hardware.mlipay@1.1",
-                "vendor.xiaomi.hardware.mfidoca@1.0",
-                "libTEECommon",
-                "libxml2",
-                "libwvkeybox",
-                "liboemcrypto",
                 "libc++",
                 "libc",
                 "libm",
@@ -33498,40 +33358,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "mlipayd_isee@1.1",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/mlipayd_isee@1.1",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhardware",
-                "libhidltransport",
-                "vendor.xiaomi.hardware.mlipay@1.0",
-                "vendor.xiaomi.hardware.mlipay@1.1",
-                "libteeclientjni_isee@1.1",
-                "libmlipay_isee@1.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "mnld",
     owner: "xiaomi",
     target: {
@@ -33557,44 +33383,6 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "libhidltransport",
                 "android.hardware.sensors@1.0-convert-shared",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "mtd_isee@1.3",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/mtd_isee@1.3",
-            ],
-            shared_libs: [
-                "vendor.xiaomi.hardware.mtdservice@1.0",
-                "vendor.xiaomi.hardware.mtdservice@1.1",
-                "vendor.xiaomi.hardware.mtdservice@1.2",
-                "vendor.xiaomi.hardware.mtdservice@1.3",
-                "libcrypto",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.xiaomi.hardware.mlipay@1.1",
-                "vendor.xiaomi.hardware.mfidoca@1.0",
-                "libTEECommon",
-                "libmt_isee@1.3",
                 "libc++",
                 "libc",
                 "libm",

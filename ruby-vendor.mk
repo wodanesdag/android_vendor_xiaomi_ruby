@@ -336,8 +336,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc \
-    vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc \
-    vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
@@ -1453,16 +1451,12 @@ PRODUCT_PACKAGES += \
     libmipc \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
-    libmlipay_isee \
-    libmlipay_isee@1.1 \
     libmml \
     libmnetlink_v104 \
     libmnl \
     libmp3dec_mtk \
     libmpbase \
     libmsnr \
-    libmt_isee \
-    libmt_isee@1.3 \
     libmtcloader \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
@@ -1711,9 +1705,7 @@ PRODUCT_PACKAGES += \
     vtservice_hidl \
     init_thh_isee \
     mi_thermald \
-    mlipayd_isee@1.1 \
     mnld \
-    mtd_isee@1.3 \
     mtk_agpsd \
     netdagent \
     nvram_daemon \
