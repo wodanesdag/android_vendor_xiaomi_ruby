@@ -310,7 +310,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
-    vendor/xiaomi/ruby/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -332,7 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.microtrust.hardware.se@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.se@1.0-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc \
@@ -1595,7 +1593,6 @@ PRODUCT_PACKAGES += \
     s5khpxofilm_mipi_raw_tuning \
     s5khpxsemco_mipi_raw_IdxMgr \
     s5khpxsemco_mipi_raw_tuning \
-    secure_element-impl \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
@@ -1692,14 +1689,12 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1-service.beanpod \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.neuralnetworks@1.3-service-mtk-neuron \
-    android.hardware.secure_element@1.2-service-mediatek \
     camerahalserver \
     mtkfusionrild \
     tetheroffloadservice \
     vendor.mediatek.hardware.mms@1.6-service \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
-    vendor.microtrust.hardware.se@1.0-service \
     vendor.microtrust.hardware.soter@1.0-service \
     vendor.microtrust.hardware.thh@2.0-service \
     vtservice_hidl \
