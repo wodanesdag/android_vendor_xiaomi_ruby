@@ -331,7 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc \
     vendor/xiaomi/ruby/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
@@ -1635,7 +1634,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
-    vendor.microtrust.hardware.soter@1.0 \
     vendor.microtrust.hardware.thh@2.0 \
     wechat.beanpod \
     libcomutils \
@@ -1695,7 +1693,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.6-service \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
-    vendor.microtrust.hardware.soter@1.0-service \
     vendor.microtrust.hardware.thh@2.0-service \
     vtservice_hidl \
     init_thh_isee \
